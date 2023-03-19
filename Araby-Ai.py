@@ -362,7 +362,7 @@ def ArabyGPT():
     banner()
     
     token_p=token[0]
-    text='Tweakpy' # put here the text you want the ai to generate as code 
+    text='Tweakpy' # put here the text you want , the ai will Give response to
     
     r=post('https://gateway.api.production.araby.ai/get-response',headers={
         'Host': 'gateway.api.production.araby.ai',
